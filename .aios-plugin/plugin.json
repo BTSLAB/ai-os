@@ -1,0 +1,27 @@
+{
+  "name": "ai-os",
+  "version": "1.0.0",
+  "description": "AI Operating System — Turn your AI assistant into a business operating system. 14 skills, 3 agents, safety hooks, and memory protocols. Setup wizard configures everything for your specific business.",
+  "author": {
+    "name": "BTSLAB",
+    "url": "https://github.com/BTSLAB"
+  },
+  "homepage": "https://github.com/BTSLAB/ai-os",
+  "repository": "https://github.com/BTSLAB/ai-os",
+  "license": "MIT",
+  "keywords": [
+    "ai-os",
+    "business-automation",
+    "business-in-a-box",
+    "skills",
+    "agents",
+    "memory",
+    "hooks",
+    "productivity",
+    "ai-runtime",
+    "cowork"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks.json"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@btslab/ai-os",
+  "version": "1.0.0",
+  "description": "White‑label AI operating system workspace and CLI wrapper",
+  "main": "index.js",
+  "bin": {
+    "aios": "bin/aios.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "ai-os",
+    "ai",
+    "workspace",
+    "skills",
+    "agent",
+    "cli",
+    "white-label"
+  ],
+  "author": "BTSLAB <support@btslab.com>",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  }
+}

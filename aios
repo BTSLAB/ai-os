@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# white-label CLI wrapper for the AI OS workspace.
+# The environment variable AIOS_CMD must point to the underlying runtime
+# executable (e.g. the vendor CLI or a custom script). This stub enforces
+# the dependency and makes the workspace completely vendor-agnostic.
+
+if [ -z "$AIOS_CMD" ]; then
+  echo "ERROR: AIOS_CMD is not set – please point it to your AI runtime CLI" >&2
+  exit 1
+fi
+
+exec "$AIOS_CMD" "$@"

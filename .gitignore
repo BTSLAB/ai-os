@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.local
+
+# Credentials
+credentials.json
+token.json
+
+# Runtime data
+data/
+memory/logs/*.md
+!memory/logs/.gitkeep
+
+# Temp files
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
